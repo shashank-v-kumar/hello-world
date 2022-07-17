@@ -15,6 +15,7 @@ pipeline {
                 // To run Maven on a Windows agent, use
                 bat "mvn  clean install"
             }
+        }
         stage('Deploy') {
             steps {
                 // Get some code from a GitHub repository
