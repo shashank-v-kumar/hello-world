@@ -23,7 +23,7 @@ pipeline {
 				bat "echo %cd%"
 				
                 // To run Maven on a Windows agent, use
-                bat "mvn package deploy -DmuleDeploy -Dmule.version=4.4.0 -Dmule.home=C:/MuleRuntime/mule-enterprise-standalone-4.4.0/bin"
+                bat "mvn package deploy -DmuleDeploy -Dmule.version=4.4.0 -Dmule.home=C:/MuleRuntime/mule-enterprise-standalone-4.4.0"
             }
 
             
